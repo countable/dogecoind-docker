@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Lars Kluge <l@larskluge.com>
+MAINTAINER Clark Van Oyen <clark@countable.ca>
 
 RUN apt-get update
 RUN dpkg-reconfigure locales && \
